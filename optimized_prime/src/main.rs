@@ -1,5 +1,5 @@
 fn main() {
-    println!("{:?}",factorize(12));
+    println!("{:?}",factorize(840));
 }
 fn factorize(mut n:u128)->Vec<u128>{
     let mut p =2;
